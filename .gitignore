@@ -1,0 +1,113 @@
+# Environment variables & secrets
+.env
+.env.*
+.env.local
+.env.production
+.env.staging
+
+# Google Cloud credentials
+*-credentials.json
+*-key.json
+service-account*.json
+gcloud-service-key.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+env/
+.env/
+*.egg-info/
+# dist/
+build/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# Logs
+logs/
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Database
+*.sqlite3
+*.db
+
+# Media/uploads (large files)
+uploads/
+media/
+*.mp4
+*.mkv
+*.avi
+*.mov
+
+# Compiled output
+dist/
+!presentation/dist/
+build/
+out/
+*.o
+*.class
+
+# Testing
+coverage/
+.nyc_output/
+.pytest_cache/
+htmlcov/
+
+# Ingestion manifests (resume tracking)
+.ingested.json
+
+# Misc
+.cache/
+tmp/
+temp/
+*.bak
+*.tmp
+
+# Ingested media copies (generated at runtime)
+data/images/
+data/audio/
+data/video/
+
+# Downloaded source media (copyrighted, keep local only)
+downloads/
+
+# Eval labeling artifacts (reference local copyrighted media)
+eval/label.html
+eval/thumbs/
+
+# PyCon deck screenshots/exports contain copyrighted manga & anime frames — keep local
+presentation/img/pycon/
+presentation/dist/pycon2026*
+presentation/demo/

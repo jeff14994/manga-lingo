@@ -1,0 +1,274 @@
+# Labeled with eval/label.html (pooled top-10 across dimensions)
+queries:
+  - id: t2i-01
+    type: text_to_image
+    query: "巨人が壁を壊す"
+    relevant:
+      - "进击的巨人 第01卷|p87"
+      - "进击的巨人 第01卷|p63"
+      - "进击的巨人 第01卷|p60"
+      - "进击的巨人 第01卷|p51"
+  - id: t2i-02
+    type: text_to_image
+    query: "立体機動装置で戦う兵士"
+    relevant:
+      - "进击的巨人 第01卷|p143"
+      - "进击的巨人 第0卷_早期作品|p9"
+      - "进击的巨人 第01卷|p157"
+      - "进击的巨人 第0卷_早期作品|p14"
+      - "进击的巨人 第01卷|p146"
+      - "进击的巨人 第0卷_早期作品|p20"
+      - "进击的巨人 第0卷_早期作品|p10"
+      - "进击的巨人 第01卷|p10"
+  - id: t2i-03
+    type: text_to_image
+    query: "超大型巨人の顔"
+    relevant:
+      - "进击的巨人 第01卷|p52"
+      - "进击的巨人 第01卷|p142"
+      - "进击的巨人 第01卷|p129"
+      - "进击的巨人 第01卷|p59"
+      - "进击的巨人 第01卷|p3"
+      - "进击的巨人 第01卷|p154"
+      - "进击的巨人 第01卷|p140"
+  - id: t2i-04
+    type: text_to_image
+    query: "母親が瓦礫の下敷きになる"
+    relevant:
+      - "进击的巨人 第01卷|p67"
+      - "进击的巨人 第01卷|p65"
+      - "进击的巨人 第01卷|p70"
+      - "进击的巨人 第01卷|p76"
+  - id: t2i-05
+    type: text_to_image
+    query: "調査兵団が壁外から帰還する"
+    relevant:
+      - "进击的巨人 第01卷|p27"
+      - "进击的巨人 第01卷|p30"
+  - id: t2i-06
+    type: text_to_image
+    query: "木の下で目を覚ます少年"
+    relevant:
+      - "进击的巨人 第01卷|p16"
+      - "进击的巨人 第01卷|p15"
+      - "进击的巨人 第01卷|p14"
+  - id: t2i-07
+    type: text_to_image
+    query: "門の前で酒を飲む兵士"
+    relevant:
+      - "进击的巨人 第01卷|p21"
+      - "进击的巨人 第01卷|p22"
+      - "进击的巨人 第01卷|p23"
+      - "进击的巨人 第01卷|p24"
+  - id: t2i-08
+    type: text_to_image
+    query: "a titan eating a person"
+    relevant:
+      - "进击的巨人 第01卷|p174"
+      - "进击的巨人 第01卷|p79"
+      - "进击的巨人 第01卷|p78"
+      - "进击的巨人 第01卷|p181"
+      - "进击的巨人 第0卷_早期作品|p4"
+  - id: t2i-09
+    type: text_to_image
+    query: "少年がいじめられている"
+    relevant:
+      - "进击的巨人 第01卷|p44"
+      - "进击的巨人 第01卷|p43"
+  - id: t2i-10
+    type: text_to_image
+    query: "訓練兵団の入団式で教官が怒鳴る"
+    relevant:
+      - "进击的巨人 第01卷|p100"
+      - "进击的巨人 第01卷|p92"
+  - id: t2v-01
+    type: text_to_video
+    query: "超大型巨人が壁の上から覗く"
+    relevant:
+      - "進擊的巨人 S1E01|0:30-1:00"
+      - "進擊的巨人 S1E01|18:15-19:00"
+      - "進擊的巨人 S1E01|19:15-19:30"
+  - id: t2v-02
+    type: text_to_video
+    query: "壁が破壊されて町に岩が飛んでくる"
+    relevant:
+      - "進擊的巨人 S1E01|19:00-19:30"
+  - id: t2v-03
+    type: text_to_video
+    query: "mother eaten by titan"
+    relevant:
+      - "進擊的巨人 S1E01|22:45-23:30"
+  - id: t2v-04
+    type: text_to_video
+    query: "調査兵団が壁外から帰ってくる"
+    relevant:
+      - "進擊的巨人 S1E01|8:30-9:15"
+      - "進擊的巨人 S1E01|9:30-9:45"
+  - id: t2v-05
+    type: text_to_video
+    query: "少年が木の下で泣きながら目を覚ます"
+    relevant:
+      - "進擊的巨人 S1E01|4:00-4:45"
+  - id: t2v-06
+    type: text_to_video
+    query: "駐屯兵団が昼間から酒を飲んでいる"
+    relevant:
+      - "進擊的巨人 S1E01|5:30-6:15"
+      - "進擊的巨人 S1E01|7:15-7:30"
+  - id: t2v-07
+    type: text_to_video
+    query: "家族で夕食を食べる"
+    relevant:
+      - "進擊的巨人 S1E01|13:15-13:45"
+      - "進擊的巨人 S1E01|14:15-14:30"
+  - id: t2v-08
+    type: text_to_video
+    query: "soldiers flying through a forest with grappling gear"
+    relevant:
+      - "進擊的巨人 S1E01|1:15-1:45"
+  - id: i2v-01
+    type: image_to_video
+    query: "downloads/进击的巨人/第01卷/010.webp"
+    relevant:
+      - "進擊的巨人 S1E01|1:15-1:30"
+  - id: i2v-02
+    type: image_to_video
+    query: "downloads/进击的巨人/第01卷/015.webp"
+    relevant:
+      - "進擊的巨人 S1E01|4:15-4:45"
+  - id: i2v-03
+    type: image_to_video
+    query: "downloads/进击的巨人/第01卷/021.webp"
+    relevant:
+      - "進擊的巨人 S1E01|5:30-5:45"
+  - id: i2v-04
+    type: image_to_video
+    query: "downloads/进击的巨人/第01卷/030.webp"
+    relevant:
+      - "進擊的巨人 S1E01|9:45-10:00"
+  - id: i2v-05
+    type: image_to_video
+    query: "downloads/进击的巨人/第01卷/052.webp"
+    relevant:
+      - "進擊的巨人 S1E01|3:30-3:45"
+  - id: i2v-06
+    type: image_to_video
+    query: "downloads/进击的巨人/第01卷/066.webp"
+    relevant:
+      - "進擊的巨人 S1E01|20:15-20:30"
+  - id: h-t2i-01
+    type: text_to_image
+    query: "絶望"
+    relevant:
+      - "进击的巨人 第01卷|p90"
+      - "进击的巨人 第01卷|p189"
+  - id: h-t2i-02
+    type: text_to_image
+    query: "家族を失う悲しみ"
+    relevant:
+      - "进击的巨人 第01卷|p77"
+  - id: h-t2i-03
+    type: text_to_image
+    query: "humanity's helplessness against giants"
+    relevant:
+      - "进击的巨人 第01卷|p2"
+      - "进击的巨人 第01卷|p53"
+      - "进击的巨人 第01卷|p79"
+  - id: h-t2i-04
+    type: text_to_image
+    query: "巨人吃人"
+    relevant:
+      - "进击的巨人 第0卷_早期作品|p4"
+      - "进击的巨人 第01卷|p79"
+      - "进击的巨人 第01卷|p174"
+  - id: h-t2i-05
+    type: text_to_image
+    query: "瑪利亞之牆被突破了"
+    relevant:
+      - "进击的巨人 第01卷|p87"
+      - "进击的巨人 第01卷|p63"
+  - id: h-t2i-06
+    type: text_to_image
+    query: "城牆上的大砲"
+    relevant:
+      - "进击的巨人 第01卷|p130"
+      - "进击的巨人 第01卷|p123"
+  - id: h-t2i-07
+    type: text_to_image
+    query: "馬に乗った兵士"
+    relevant:
+      - "进击的巨人 第01卷|p6"
+      - "进击的巨人 第01卷|p105"
+      - "进击的巨人 第01卷|p7"
+  - id: h-t2v-01
+    type: text_to_video
+    query: "絶望"
+    relevant:
+      - "進擊的巨人 S1E01|10:45-11:00"
+      - "進擊的巨人 S1E01|11:15-11:45"
+      - "進擊的巨人 S1E01|20:00-20:15"
+      - "進擊的巨人 S1E01|21:00-21:15"
+  - id: h-t2v-02
+    type: text_to_video
+    query: "母親被巨人吃掉"
+    relevant:
+      - "進擊的巨人 S1E01|22:45-23:00"
+  - id: h-t2v-03
+    type: text_to_video
+    query: "a bearded man drinking"
+    relevant:
+      - "進擊的巨人 S1E01|5:45-6:00"
+  # Audio → Video: 6–10 s clips cut from the episode with ffmpeg (opening 2:20,
+  # line 1:21, mother 22:50, Eren 4:28, Colossal Titan 18:20), so the labels are
+  # the known source time. *_phone = 300–3400 Hz band-pass + pink noise
+  # ("phone held up to the TV"). Clips live in data/audio/queries/ (not committed).
+  - id: a2v-01
+    type: audio_to_video
+    query: "data/audio/queries/opening_song.mp3"
+    relevant:
+      - "進擊的巨人 S1E01|2:00-3:30"
+  - id: a2v-02
+    type: audio_to_video
+    query: "data/audio/queries/line_rittai_kidou.mp3"
+    relevant:
+      - "進擊的巨人 S1E01|1:15-1:30"
+  - id: a2v-03
+    type: audio_to_video
+    query: "data/audio/queries/mother_scene.mp3"
+    relevant:
+      - "進擊的巨人 S1E01|22:45-23:00"
+  - id: a2v-04
+    type: audio_to_video
+    query: "data/audio/queries/eren_naiteru.mp3"
+    relevant:
+      - "進擊的巨人 S1E01|4:15-4:45"
+  - id: a2v-05
+    type: audio_to_video
+    query: "data/audio/queries/colossal_titan.mp3"
+    relevant:
+      - "進擊的巨人 S1E01|18:15-18:30"
+  - id: a2v-06
+    type: audio_to_video
+    query: "data/audio/queries/opening_song_phone.mp3"
+    relevant:
+      - "進擊的巨人 S1E01|2:00-3:30"
+  - id: a2v-07
+    type: audio_to_video
+    query: "data/audio/queries/line_rittai_kidou_phone.mp3"
+    relevant:
+      - "進擊的巨人 S1E01|1:15-1:30"
+  - id: a2v-08
+    type: audio_to_video
+    query: "data/audio/queries/mother_scene_phone.mp3"
+    relevant:
+      - "進擊的巨人 S1E01|22:45-23:00"
+  - id: a2v-09
+    type: audio_to_video
+    query: "data/audio/queries/eren_naiteru_phone.mp3"
+    relevant:
+      - "進擊的巨人 S1E01|4:15-4:45"
+  - id: a2v-10
+    type: audio_to_video
+    query: "data/audio/queries/colossal_titan_phone.mp3"
+    relevant:
+      - "進擊的巨人 S1E01|18:15-18:30"
